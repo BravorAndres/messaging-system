@@ -100,20 +100,6 @@ Esto iniciará:
 - **MongoDB** en puerto `27017`
 - **RabbitMQ** en puerto `5672` (Management UI en `15672`)
 
-### 3. Verificar Contenedores
-
-```bash
-docker compose ps
-```
-
-Deberías ver 3 contenedores corriendo:
-```
-NAME                    STATUS    PORTS
-docker-mysql-1          Up        0.0.0.0:3306->3306/tcp
-docker-mongodb-1        Up        0.0.0.0:27017->27017/tcp
-docker-rabbitmq-1       Up        0.0.0.0:5672->5672/tcp, 0.0.0.0:15672->15672/tcp
-```
-
 ## Configuración
 
 ### Inicializar Base de Datos MySQL
