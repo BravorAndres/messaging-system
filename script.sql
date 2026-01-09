@@ -1,0 +1,1 @@
+INSERT INTO authorized_lines (line_number, active) VALUES ('1234567890', true),('1111111111', true),('2222222222', true),('0987654321', true),('3333333333', true);

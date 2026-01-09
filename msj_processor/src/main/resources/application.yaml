@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: msj_processor
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/messages_db
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: admin
+
+api:
+  security:
+    key: my-second-super-secret-key-123
+    
+
+server:
+  port: 8081
