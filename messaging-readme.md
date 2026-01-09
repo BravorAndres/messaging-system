@@ -81,10 +81,10 @@ messaging-system/
 
 ## Instalación
 
-### 1. Clonar el Repositorio
+### 1. Clonar el Repositorio o descomprimir archivo con el proyecto
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/BravorAndres/messaging-system.git
 cd messaging-system
 ```
 
